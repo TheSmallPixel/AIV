@@ -471,7 +471,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 03a941cd42d0afd458ba654433dbf592, type: 2}
   - {fileID: 11400000, guid: 1ee05efbf43c89546b5e2fe3952d3898, type: 2}
   _root: {fileID: 1436352526}
-  _slotNumber: 28
+  _slotNumber: 40
 --- !u!1 &624349229
 GameObject:
   m_ObjectHideFlags: 0

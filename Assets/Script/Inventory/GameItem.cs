@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class GameItem : MonoBehaviour, IBeginDragHandler, IPointerDownHandler, IPointerClickHandler, IEndDragHandler, IDragHandler
+public class GameItem : MonoBehaviour, IBeginDragHandler, IPointerDownHandler, IEndDragHandler, IDragHandler
 {
     private ItemGameobject _itemGameobject;
     public Item Item { get; private set; }
@@ -14,6 +14,7 @@ public class GameItem : MonoBehaviour, IBeginDragHandler, IPointerDownHandler, I
 
     private Vector2 _offset;
     private CanvasGroup _canvasGroup;
+
     private void Awake()
     {
         _camera = Camera.main;
@@ -24,25 +25,18 @@ public class GameItem : MonoBehaviour, IBeginDragHandler, IPointerDownHandler, I
     {
         this.Item = item;
         this._itemGameobject = itemGameobject;
-
         _image.sprite = _itemGameobject.Sprite;
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-
         _offset = new Vector2(transform.position.x, transform.position.y) - eventData.position;
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         _canvasGroup.blocksRaycasts = true;
         transform.localPosition = Vector3.zero;
-
     }
 
     public void OnDrag(PointerEventData eventData)

@@ -34,10 +34,6 @@ public class InventoryManager : MonoBehaviour
             slot.GetComponent<Slot>().Setup(i, OnDrop);
             _slots.Add(slot.GetComponent<Slot>());
         }
-
-        //CreateItem("test0");
-        //CreateItem("test0");
-        //CreateItem("test1");
     }
 
     void OnDrop(int id, GameItem gm, Slot slot)
@@ -45,30 +41,21 @@ public class InventoryManager : MonoBehaviour
         bool isFree = !_items.Any(x => x.Position == slot.Id);
         if (isFree)
         {
-            //_items.First(x => x.Position == slot.Type)
-            ////Sawp
-            //var firstS = _slots.First(x => x.Type == gm.Item.Position); //slot 1 item del drop
-            //gm.gameObject.transform.SetParent(slot.transform); //swap 1° item e il secondo slot
-            //gm.Item.Position = slot.Type;
-
             gm.Item.Position = slot.Id;
             gm.gameObject.transform.SetParent(slot.transform);
-            Debug.Log("OnDrop swap");
-
         }
-        Debug.Log("OnDrop");
     }
 
     public void Save()
     {
         string data = JsonUtility.ToJson(_chest);
-        File.WriteAllText(Application.dataPath + "/inv.json", data);
-        Debug.Log(Application.dataPath + "/inv.json");
+        File.WriteAllText(Application.persistentDataPath + "/inv.json", data);
+        Debug.Log(Application.persistentDataPath + "/inv.json");
     }
 
     public void Load()
     {
-        var data = File.ReadAllText(Application.dataPath + "/inv.json");
+        var data = File.ReadAllText(Application.persistentDataPath + "/inv.json");
         _chest = JsonUtility.FromJson<Chest>(data);
         foreach (var item in _chest.Items)
         {
@@ -90,7 +77,6 @@ public class InventoryManager : MonoBehaviour
         {
             return _slots.FirstOrDefault();
         }
-        //Prendi il primo slot che non contine nessun item
         return _slots.FirstOrDefault(x => !_items.Any(i => i.Position == x.Id));
     }
 
