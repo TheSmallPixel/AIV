@@ -12,13 +12,13 @@ namespace Assets.Script.Effects
 
         public override int Duration => 10;
 
-        public override void AddEffect(Player stats)
+        public override void AddEffect(SimplePlayer stats)
         {
             _oldVelocity = stats.Velocity;
             stats.Velocity = Velocity;
         }
 
-        public override void RemoveEffect(Player stats)
+        public override void RemoveEffect(SimplePlayer stats)
         {
             stats.Velocity = _oldVelocity;
         }

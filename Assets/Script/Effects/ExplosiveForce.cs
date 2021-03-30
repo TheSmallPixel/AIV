@@ -13,18 +13,18 @@ namespace Assets.Script.Effects
 
         public override int Duration => 0;
 
-        public override void AddEffect(Player player)
+        public override void AddEffect(SimplePlayer player)
         {
             player.StartCoroutine(StartTurbolence(player));
         }
 
-        public override void RemoveEffect(Player player)
+        public override void RemoveEffect(SimplePlayer player)
         {
 
         }
 
 
-        IEnumerator StartTurbolence(Player player)
+        IEnumerator StartTurbolence(SimplePlayer player)
         {
             for (int i = 0; i < 40; i++)
             {

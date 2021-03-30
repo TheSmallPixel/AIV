@@ -7,9 +7,9 @@ namespace Assets.Script
     {
         public abstract int Duration { get; }
 
-        public abstract void AddEffect(Player stats);
+        public abstract void AddEffect(SimplePlayer stats);
 
-        public abstract void RemoveEffect(Player stats);
+        public abstract void RemoveEffect(SimplePlayer stats);
     }
 
 }

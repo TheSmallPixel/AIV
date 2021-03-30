@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: e440c7c670e36df44baf98d038df50c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: omino-lori-vettorizzato_0
+  - first:
+      213: 21300002
+    second: omino-lori-vettorizzato_1
+  - first:
+      213: 21300004
+    second: omino-lori-vettorizzato_2
+  - first:
+      213: 21300006
+    second: omino-lori-vettorizzato_3
+  - first:
+      213: 21300008
+    second: omino-lori-vettorizzato_4
+  - first:
+      213: 21300010
+    second: omino-lori-vettorizzato_5
+  - first:
+      213: 21300012
+    second: omino-lori-vettorizzato_6
+  - first:
+      213: 21300014
+    second: omino-lori-vettorizzato_7
+  - first:
+      213: 21300016
+    second: omino-lori-vettorizzato_8
+  - first:
+      213: 21300018
+    second: omino-lori-vettorizzato_9
+  - first:
+      213: 21300020
+    second: omino-lori-vettorizzato_10
+  - first:
+      213: 21300022
+    second: omino-lori-vettorizzato_11
+  - first:
+      213: 21300024
+    second: omino-lori-vettorizzato_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_0
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1259
+        width: 674
+        height: 639
+      alignment: 9
+      pivot: {x: 0.49194762, y: 0.06103057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_1
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1330
+        width: 441
+        height: 542
+      alignment: 9
+      pivot: {x: 0.536829, y: 0.13041817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1000
+        width: 162
+        height: 154
+      alignment: 9
+      pivot: {x: 0.4999173, y: 0.10279549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_3
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 806
+        width: 251
+        height: 424
+      alignment: 9
+      pivot: {x: 0.528759, y: 0.9000817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_4
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 848
+        width: 216
+        height: 423
+      alignment: 9
+      pivot: {x: 0.466581, y: 0.86689776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 600
+        width: 206
+        height: 306
+      alignment: 9
+      pivot: {x: 0.7190079, y: 0.842053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_6
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 600
+        width: 207
+        height: 307
+      alignment: 9
+      pivot: {x: 0.27333224, y: 0.82918227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_7
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 335
+        width: 174
+        height: 431
+      alignment: 9
+      pivot: {x: 0.47925717, y: 0.9270806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_8
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 392
+        width: 174
+        height: 423
+      alignment: 9
+      pivot: {x: 0.48962823, y: 0.8882289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 143
+        width: 181
+        height: 406
+      alignment: 9
+      pivot: {x: 0.6694951, y: 0.9533786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 144
+        width: 194
+        height: 404
+      alignment: 9
+      pivot: {x: 0.28604975, y: 0.95562303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_11
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 102
+        width: 309
+        height: 154
+      alignment: 9
+      pivot: {x: 0.3072731, y: 0.76952153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omino-lori-vettorizzato_12
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 102
+        width: 309
+        height: 154
+      alignment: 9
+      pivot: {x: 0.31895354, y: 0.7460848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

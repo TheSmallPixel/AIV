@@ -1,7 +1,7 @@
 ﻿using Assets.Script;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class SimplePlayer : MonoBehaviour
 {
     public float Velocity;
     private Effect _currentEffect;

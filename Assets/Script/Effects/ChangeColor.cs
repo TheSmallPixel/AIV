@@ -11,7 +11,7 @@ namespace Assets.Script.Effects
 
         public override int Duration => 5;
 
-        public override void AddEffect(Player stats)
+        public override void AddEffect(SimplePlayer stats)
         {
             var render = stats.GetComponent<SpriteRenderer>();
             if (render != null)
@@ -21,7 +21,7 @@ namespace Assets.Script.Effects
             }
         }
 
-        public override void RemoveEffect(Player stats)
+        public override void RemoveEffect(SimplePlayer stats)
         {
             var render = stats.GetComponent<SpriteRenderer>();
             if (render != null)
